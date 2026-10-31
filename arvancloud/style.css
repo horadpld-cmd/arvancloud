@@ -1,0 +1,74 @@
+body{
+    overflow: hidden;
+}
+header{
+    padding: 1px;
+}
+@font-face {
+    font-family: "yekan";
+    src: url(./fonts/Yekan\ Bakh\ EN\ 05\ Medium.woff);
+}
+@font-face {
+    font-family: "yekan b";
+    src: url(./fonts/Yekan\ Bakh\ EN\ 06\ Bold.woff);
+}
+a{
+    text-decoration: none;
+    color: #344456;
+}
+a:hover{
+    color: #0e7571;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    
+    list-style: none;
+    position: relative;
+    gap: 30px;
+}
+li{
+    text-decoration: none; 
+    display: inline-block; 
+    position: relative; 
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1400px;
+    margin:  auto;
+    
+}
+
+.hero-text{
+    flex: 1;
+    position: relative;
+    font-family: "yekan";
+    font-size: 15px;
+    transform: translateX(-95px) translateY(-10px);
+    
+    
+}
+.hero-img{
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    transform: translateX(450px) translateY(-10px);
+
+}
+.hero-img img{
+    
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.line{
+    width: 3px;
+    height: 18px;
+    background-color: #91a4bc;
+    position: relative;
+    display: flex;
+    transform: translateX(-550px) translateY(-10px);
+}
